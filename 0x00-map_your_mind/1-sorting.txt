@@ -1,0 +1,28 @@
+input number1, number2, number3
+
+if(number1>number2 && number1 >number3){
+  if (number2>number3){
+    print number1, number2, number3
+    
+    }else
+      print  number1, number3, number2
+  
+  }
+  else if(number2>number1 && number2 >number3){
+  if (number3>number1){
+    print number2, number3, numbe1
+    
+    }else
+      print  number2, number1, number3
+  
+  }
+  else if(number2>number1 && number2 >number3){
+  if (number1> number3){
+    print number2, number1, numbe3
+    
+    }else
+      print  number2, number3, number1
+  
+  } else if (number1==number2 and number3==number1){
+  print number1, number 2, number3 
+  
