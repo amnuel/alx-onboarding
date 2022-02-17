@@ -1,0 +1,6 @@
+input number
+sum=0
+while (number>=0){
+  sum+=number
+}
+print sum
